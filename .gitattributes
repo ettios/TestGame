@@ -1,1 +1,4 @@
 *.unityweb filter=lfs diff=lfs merge=lfs -text
+Build/ettioswebgl.data.unityweb filter=lfs diff=lfs merge=lfs -text
+Build/ettioswebgl.framework.js.unityweb filter=lfs diff=lfs merge=lfs -text
+Build/ettioswebgl.wasm.unityweb filter=lfs diff=lfs merge=lfs -text
