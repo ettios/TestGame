@@ -6,7 +6,7 @@
     <title>Ettios Game By Impossible Games</title>    
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) -->    
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-29Y9JSYM7K"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -24,6 +24,9 @@
         </a>
       </div>
       <div class="logo-content">
+        <button class="glow-on-hover" aria-label="Feedback!" onclick="showModalForm()">
+          Feedback!
+        </button>
         <h4 class="impossible">By Impossible Games</h4>
       </div>
     </header>
@@ -43,6 +46,10 @@
         <!-- <div id="unity-build-title">Ettios</div> -->
       </div>
     </div>
+
+     <!-- scripts -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
 
       var container = document.querySelector("#unity-container");
@@ -138,5 +145,8 @@
       document.body.appendChild(script);
 
     </script>
+    
+    
+    <script type="text/javascript" src="./TemplateData/form.js"></script>
   </body>
 </html>
