@@ -3,12 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Ettios</title>
+    <title>Ettios Game By Impossible Games</title>    
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-29Y9JSYM7K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-29Y9JSYM7K');
+    </script>
   </head>
   <body>
-    <div id="unity-container" class="unity-desktop">
+    <header class="header-ettios">
+      <div class="logo-content">
+        <a href="https://www.ettios.io" target="_blank">
+          <img src="./TemplateData/favicon.png" width="40" height="40" alt="ettios logo">
+        </a>
+      </div>
+      <div class="logo-content">
+        <h4 class="impossible">By Impossible Games</h4>
+      </div>
+    </header>
+
+    <div id="unity-container" class="unity-desktop" style="padding-bottom: 30px;">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
